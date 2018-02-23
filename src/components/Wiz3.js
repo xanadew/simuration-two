@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
-import {saveWiz3} from '../actions/saveWiz3';
+import {saveWiz3} from '../actions/wizActions';
 
 class Wiz3 extends Component {
     constructor(props){
@@ -32,7 +32,7 @@ class Wiz3 extends Component {
 
 const mapStateToProps=state=>{
     return{
-        imgUrl:state.wiz.imgUrl
+        imgUrl:state.wizzy.imgUrl
     }
 }
 const mapDispatchToProps={

@@ -30,7 +30,7 @@ class Wiz2 extends Component {
                 onChange={(e)=>{this.setState({state:e.target.value})}}
                 value={this.state.state||this.props.state}></input>
                 <input type='text' placeholder='ZIP'
-                onChange={(e)=>{this.setState({state:e.target.value})}}
+                onChange={(e)=>{this.setState({zip:e.target.value})}}
                 value={this.state.zip||this.props.zip}></input>
                 <Link to='/wiz/3'>
                 <button onClick={()=>this.props.saveWiz2(this.state)}>NEXT STEP</button>
@@ -42,10 +42,10 @@ class Wiz2 extends Component {
 
 const mapStateToProps=state=>{
     return{
-        address:state.wiz.address,
-        city:state.wiz.city,
-        state:state.wiz.state,
-        zip:state.wiz.zip
+        address:state.wizzy.address,
+        city:state.wizzy.city,
+        state:state.wizzy.state,
+        zip:state.wizzy.zip
     }
 }
 

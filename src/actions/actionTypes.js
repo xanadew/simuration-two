@@ -1,0 +1,8 @@
+export const WRITE_WIZ_ONE = 'WRITE_WIZ_ONE';
+export const WRITE_WIZ_TWO = 'WRITE_WIZ_TWO';
+export const WRITE_WIZ_THREE = 'WRITE_WIZ_THREE';
+export const WRITE_WIZ_FOUR = 'WRITE_WIZ_FOUR';
+export const WRITE_WIZ_FIVE = 'WRITE_WIZ_FIVE';
+export const WRITE_MG_FIELD = 'WRITE_MG_FIELD';
+export const WRITE_LOAN_FIELD = 'WRITE_LOAN_FIELD';
+export const RESET_STORE = 'RESET_STORE';

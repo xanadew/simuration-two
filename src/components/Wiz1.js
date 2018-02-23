@@ -37,8 +37,8 @@ class Wiz1 extends Component {
 
 const mapStateToProps = state => {
     return {
-        propertyName:state.wiz.propertyName,
-        propertyDescription:state.wiz.propertyDescription
+        propertyName:state.wizzy.propertyName,
+        propertyDescription:state.wizzy.propertyDescription
     }
 }
 const mapDispatchToProps = {

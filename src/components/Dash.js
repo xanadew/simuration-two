@@ -24,10 +24,10 @@ getAllProperties=()=>{
     })
 }
 componentDidMount(){
-
+    this.getAllProperties();
 }
 componentWillReceiveProps(){
-
+    this.getAllProperties();
 }
     render() {
         return (
